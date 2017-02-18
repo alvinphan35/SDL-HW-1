@@ -20,6 +20,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>post</servlet-name>
 		<url-pattern>/post</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>DummyServlet</servlet-name>
+		<servlet-class>path to the servlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DummyServlet</servlet-name>
+		<url-pattern>/SendMailLate</url-pattern>
+</servlet-mapping>
+
 	<welcome-file-list>
 		<welcome-file>blog.jsp</welcome-file>
 	</welcome-file-list>
